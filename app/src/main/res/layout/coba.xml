@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:text="Hello teman semua ayo kita sambut hari baru telah tiba"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ikonLokasi"
+            android:background="@drawable/jalan_gayungsari_timur"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="20dp"
+        android:fillViewport="false"
+        android:layout_marginLeft="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="640px"
+                    android:layout_height="640px"
+                    android:id="@+id/fotoLokasi"
+                    android:background="@drawable/jalan_gayungsari_timur"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Berita Acara"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showHeadline"
+                android:textStyle="bold|italic"
+                android:text="Hello teman semua ayo kita sambut hari baru telah tiba"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showTanggal"
+                android:text="28-09-2016"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showLink"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="www.google.com" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

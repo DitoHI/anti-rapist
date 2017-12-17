@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Anti Rapist</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello"><![CDATA[Jl. Indrapura Krembangan Utara Pabean Cantian Kota SBY Jawa Timur]]></string>
+    <string name="follow"><![CDATA[Follow us<br/>on <a href="http://twitter.com/umanoapp">Twitter</a>]]></string>
+</resources>

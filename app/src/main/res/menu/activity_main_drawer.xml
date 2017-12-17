@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/peta"
+            android:icon="@drawable/maps_icon"
+            android:title="Maps" />
+    </group>
+
+    <item android:title="Wilayah Kejadian">
+        <menu>
+            <item
+                android:id="@+id/surabayaPusat"
+                android:icon="@drawable/center_icon"
+                android:title="Surabaya Pusat" />
+            <item
+                android:id="@+id/surabayaBarat"
+                android:icon="@drawable/west_icon"
+                android:title="Surabaya Barat" />
+            <item
+                android:id="@+id/surabayaUtara"
+                android:icon="@drawable/north_icon"
+                android:title="Surabaya Utara" />
+            <item
+                android:id="@+id/surabayaTimur"
+                android:icon="@drawable/east_icon"
+                android:title="Surabaya Timur" />
+            <item
+                android:id="@+id/surabayaSelatan"
+                android:icon="@drawable/south_icon"
+                android:title="Surabaya Selatan" />
+        </menu>
+    </item>
+</menu>
