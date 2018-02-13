@@ -13,5 +13,5 @@ Criminal incidents that occured around _Surabaya_ in 2016. The incidents is extr
 * Swipe up Dialog
 * Customizable marking inside the map
 
-###### __Here is the summary of features (video) :__ https://www.youtube.com/watch?v=j-Q0PaGOWpo&t=64s
-###### __Tutorial for making the app (video) :__ https://www.youtube.com/watch?v=gRVfTCQwzPE&t=1401s
+##### __Here is the summary of features (video) :__ https://www.youtube.com/watch?v=j-Q0PaGOWpo&t=64s
+##### __Tutorial for making the app (video) :__ https://www.youtube.com/watch?v=gRVfTCQwzPE&t=1401s
